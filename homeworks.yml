@@ -1,24 +1,24 @@
 Homeworks:
-  - ForkAndIssue:
+  - id: ForkAndIssue
     name: hw-githubForkAndIssue
     type: issue
     title: ["homework: github repo fork."]
     tag: "is:answer"
-  - BranchAndCommit:
+  - id: BranchAndCommit
     name: hw-gitBranchAndCommit
     type: issue
     title: [homework1, homework2]
     tag: "is:answer"
-  - Stash:
+  - id: Stash
     name: hw-gitStash
     type: issue
     title: [homework1, homework2]
     tag: "is:answer"
-  - PR:
+  - id: PR
     name: hw-githubPR
     type: pr
     tag: "is:answer"
-  - MergeAndRebase:
+  - id: MergeAndRebase
     name: hw-gitMergeAndRebase
     type: issue
     title: [homework1, homework2, homework3, homework4]
