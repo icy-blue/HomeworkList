@@ -14,5 +14,5 @@ jobs:
       - name: Fetch the status
         run: |
           python3 main.py
-        with: |
+        env: 
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

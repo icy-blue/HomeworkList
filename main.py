@@ -4,11 +4,11 @@ import os
 from datetime import datetime
 import json
 
-limit = os.getenv('INPUT_HOMEWORK_LIMIT', default=100)
-owner = os.getenv('INPUT_OWNER', default='SDUOJ-Team')
-token = os.getenv('INPUT_GITHUB_TOKEN')
-period = os.getenv('INPUT_FETCH_PERIOD')
-pagesize = os.getenv('INPUT_PAGE_SIZE', default=30)
+limit = os.getenv('ENV_HOMEWORK_LIMIT', default=100)
+owner = os.getenv('ENV_OWNER', default='SDUOJ-Team')
+token = os.getenv('ENV_GITHUB_TOKEN')
+period = os.getenv('ENV_FETCH_PERIOD')
+pagesize = os.getenv('ENV_PAGE_SIZE', default=30)
 
 with open('homeworks.yml', 'r') as file:
     homeworks = yaml.safe_load(file)
